@@ -26,11 +26,11 @@ var ball = {
 
 function setup(){
   canvas =  createCanvas(700,600);
-  video=createCapture(VIDEO);
+  /*video=createCapture(VIDEO);
   video.size(600,600);
   video.hide();
   posenet = ml5.poseNet(video, modelLoaded);
-  posenet.on('pose', gotPoses);
+  posenet.on('pose', gotPoses);*/
 }
 
 function modelLoaded(){
